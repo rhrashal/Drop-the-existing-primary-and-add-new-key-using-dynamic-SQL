@@ -1,6 +1,6 @@
 # Drop the existing primary key using dynamic SQL and Add the new primary key using dynamic SQL
 
-```
+```sql
 DECLARE @TABLE_NAME NVARCHAR(500)='PRODUCT_STOCK'
 DECLARE @PK_NAME NVARCHAR(500);
 -- Step 1: Get the name of the existing primary key
